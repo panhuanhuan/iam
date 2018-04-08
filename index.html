@@ -288,7 +288,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/09/Third/" itemprop="url">Eclipse ‘找不到或无法加载主类’ 解决方法</a></h1>
+                <a class="post-title-link" href="/2018/04/09/Third/" itemprop="url">Eclipse‘找不到或无法加载主类’解决方法</a></h1>
         
 
         <div class="post-meta">
@@ -341,7 +341,7 @@
         
           
             <h2 id="第3篇文章"><a href="#第3篇文章" class="headerlink" title="第3篇文章"></a>第3篇文章</h2><blockquote>
-<p>在Eclipse创建一个MAVEN项目。运行类时，报错：找不到或无法加载主类<br>查找资料，最后发现是因为缺少依赖jar包，根据相应的提示。再pom.xml加上以来，问题得到解决。</p>
+<p>在Eclipse创建一个MAVEN项目。运行类时，报错：找不到或无法加载主类<br>查找资料，最后发现是因为缺少依赖jar包，Maven工程有一个大感叹号提示。根据相应的提示。在pom.xml加上缺少依赖包，问题得到解决：<br>··<br>      <dependency><br>            <groupid>org.ccil.cowan.tagsoup</groupid><br>            <artifactid>tagsoup</artifactid><br>            <version>1.2.1</version><br>        </dependency><br>··</p>
 </blockquote>
 
           
